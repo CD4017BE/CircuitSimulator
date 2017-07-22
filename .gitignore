@@ -1,0 +1,6 @@
+/bin/
+/build/
+/.settings/
+
+#don't upload the over sized png diagrams
+/testCircuits/*.png
