@@ -1,0 +1,9 @@
+XY[60, 500, 0.05] 60s at 20 tps
+Mr[1] Mg[0] measure voltage and current
+Cx[10, 5] Lx[0, 0.5] Rx[0.1] should oscillate at about 0.2 Hz
+;
+/-Mg-*--\
+|    Rx |
+Cx   |  Mr
+|    Lx |
+\----*--/

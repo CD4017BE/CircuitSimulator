@@ -1,0 +1,14 @@
+XY[60, 500, 0.05] 60 seconds at 20 tps
+Mr[1] input voltage
+Mg[0] current
+Mb[1] output voltage
+L0[0, 0.25] C0[10, 4] AC generator
+R0[5] C1[0, 0.4] smoother
+R1[50] consumer
+;
+/--*--*-R0-\
+|  |  |    *>*--*--*--\
+L0 C0 Mr   ^ ^  |  |  |
+|  |  |    *>*  C1 R1 Mb
+\--*--*-Mg-+-/  |  |  |
+           \----*--*--/

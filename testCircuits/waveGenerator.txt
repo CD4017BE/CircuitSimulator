@@ -1,0 +1,16 @@
+circuit taken from "https://de.wikipedia.org/wiki/Datei:Moderner_Oszillator_M.GIF" but with different capacitor values
+XY[100, 100, 0.001] 100 seconds at 1000 tps
+Mr[1]
+Ua[12] T1[10, 1]
+R1[330000] R2[100000] R3[5000]
+C1[0, 0.008] C2[0, 0.004] L1[0, 2.5]
+;
+       /--*--*--\
+       |  C2 L1 Mr
+/--*---+--*--*--*
+R1 |   |  R1 C1 |
+*--+-C1*  |  |  |
+*--T1  T1-*--/  Ua
+|  \-*-/  |     |
+R2   R3   R2    |
+\----*----*-----/
